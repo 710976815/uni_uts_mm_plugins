@@ -17,7 +17,7 @@ publishing {
     publications {
         library1(MavenPublication) {
             groupId = 'uni.uts.mm' // 替换为你的 Group ID
-            artifactId = 'avplayer' // 第一个 AAR 文件的 Artifact ID
+            artifactId = 'JyzzGooglePay' // 第一个 AAR 文件的 Artifact ID
             version = '1.0.0' // 替换为你的版本号
 
             artifact(file('libs/JyzzGooglePay-debug.aar')) {
